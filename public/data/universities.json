@@ -1,0 +1,109 @@
+{
+  "universities": [
+    {
+      "id": 1,
+      "name": "Andhra University",
+      "location": "Visakhapatnam, AP",
+      "logo": "AU",
+      "color": "#0052cc",
+      "results": [
+        { "id": "au-1", "title": "B.Tech Semester 1 Results 2024", "date": "2024-12-10", "status": "Published" },
+        { "id": "au-2", "title": "B.Tech Semester 2 Results 2024", "date": "2024-11-20", "status": "Published" },
+        { "id": "au-3", "title": "B.Tech Semester 3 Results 2024", "date": "2024-10-15", "status": "Published" },
+        { "id": "au-4", "title": "B.Tech Semester 4 Results 2024", "date": "2024-09-05", "status": "Published" },
+        { "id": "au-5", "title": "B.Sc Semester 1 Results 2024", "date": "2024-12-01", "status": "Published" },
+        { "id": "au-6", "title": "B.Sc Semester 2 Results 2024", "date": "2024-11-10", "status": "Published" },
+        { "id": "au-7", "title": "B.Com Semester 1 Results 2024", "date": "2024-12-05", "status": "Published" },
+        { "id": "au-8", "title": "MBA Semester 1 Results 2024", "date": "2024-11-25", "status": "Published" },
+        { "id": "au-9", "title": "MBA Semester 2 Results 2024", "date": "2024-10-30", "status": "Published" },
+        { "id": "au-10", "title": "MCA Semester 1 Results 2024", "date": "2024-12-08", "status": "Published" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Delhi University",
+      "location": "New Delhi, DL",
+      "logo": "DU",
+      "color": "#7b2d8b",
+      "results": [
+        { "id": "du-1", "title": "B.Tech Semester 1 Results 2024", "date": "2024-12-12", "status": "Published" },
+        { "id": "du-2", "title": "B.Tech Semester 2 Results 2024", "date": "2024-11-18", "status": "Published" },
+        { "id": "du-3", "title": "B.Sc (Hons) Semester 1 Results 2024", "date": "2024-12-03", "status": "Published" },
+        { "id": "du-4", "title": "B.Sc (Hons) Semester 2 Results 2024", "date": "2024-11-08", "status": "Published" },
+        { "id": "du-5", "title": "B.A. Semester 1 Results 2024", "date": "2024-12-06", "status": "Published" },
+        { "id": "du-6", "title": "B.A. Semester 2 Results 2024", "date": "2024-11-14", "status": "Published" },
+        { "id": "du-7", "title": "MBA Semester 1 Results 2024", "date": "2024-11-28", "status": "Published" },
+        { "id": "du-8", "title": "MBA Semester 2 Results 2024", "date": "2024-10-22", "status": "Published" },
+        { "id": "du-9", "title": "LLB Semester 1 Results 2024", "date": "2024-12-09", "status": "Published" },
+        { "id": "du-10", "title": "LLB Semester 2 Results 2024", "date": "2024-11-02", "status": "Published" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Osmania University",
+      "location": "Hyderabad, TS",
+      "logo": "OU",
+      "color": "#c0392b",
+      "results": [
+        { "id": "ou-1", "title": "B.E Semester 1 Results 2024", "date": "2024-12-11", "status": "Published" },
+        { "id": "ou-2", "title": "B.E Semester 2 Results 2024", "date": "2024-11-19", "status": "Published" },
+        { "id": "ou-3", "title": "B.E Semester 3 Results 2024", "date": "2024-10-12", "status": "Published" },
+        { "id": "ou-4", "title": "B.E Semester 4 Results 2024", "date": "2024-09-10", "status": "Published" },
+        { "id": "ou-5", "title": "B.Pharm Semester 1 Results 2024", "date": "2024-12-04", "status": "Published" },
+        { "id": "ou-6", "title": "B.Pharm Semester 2 Results 2024", "date": "2024-11-12", "status": "Published" },
+        { "id": "ou-7", "title": "M.Tech Semester 1 Results 2024", "date": "2024-11-27", "status": "Published" },
+        { "id": "ou-8", "title": "MCA Semester 1 Results 2024", "date": "2024-12-07", "status": "Published" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mumbai University",
+      "location": "Mumbai, MH",
+      "logo": "MU",
+      "color": "#e67e22",
+      "results": [
+        { "id": "mu-1", "title": "B.Tech Semester 1 Results 2024", "date": "2024-12-13", "status": "Published" },
+        { "id": "mu-2", "title": "B.Tech Semester 2 Results 2024", "date": "2024-11-21", "status": "Published" },
+        { "id": "mu-3", "title": "B.Com Semester 1 Results 2024", "date": "2024-12-02", "status": "Published" },
+        { "id": "mu-4", "title": "B.Com Semester 2 Results 2024", "date": "2024-11-09", "status": "Published" },
+        { "id": "mu-5", "title": "BMS Semester 1 Results 2024", "date": "2024-12-05", "status": "Published" },
+        { "id": "mu-6", "title": "MBA Semester 1 Results 2024", "date": "2024-11-26", "status": "Published" },
+        { "id": "mu-7", "title": "LLB Semester 1 Results 2024", "date": "2024-12-08", "status": "Published" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Anna University",
+      "location": "Chennai, TN",
+      "logo": "ANA",
+      "color": "#27ae60",
+      "results": [
+        { "id": "ana-1", "title": "B.E Semester 1 Results 2024", "date": "2024-12-14", "status": "Published" },
+        { "id": "ana-2", "title": "B.E Semester 2 Results 2024", "date": "2024-11-22", "status": "Published" },
+        { "id": "ana-3", "title": "B.E Semester 3 Results 2024", "date": "2024-10-16", "status": "Published" },
+        { "id": "ana-4", "title": "B.E Semester 4 Results 2024", "date": "2024-09-08", "status": "Published" },
+        { "id": "ana-5", "title": "B.Tech (IT) Semester 1 Results 2024", "date": "2024-12-03", "status": "Published" },
+        { "id": "ana-6", "title": "B.Tech (IT) Semester 2 Results 2024", "date": "2024-11-11", "status": "Published" },
+        { "id": "ana-7", "title": "M.E Semester 1 Results 2024", "date": "2024-11-29", "status": "Published" },
+        { "id": "ana-8", "title": "MBA Semester 1 Results 2024", "date": "2024-12-06", "status": "Published" },
+        { "id": "ana-9", "title": "MCA Semester 2 Results 2024", "date": "2024-11-03", "status": "Published" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bangalore University",
+      "location": "Bengaluru, KA",
+      "logo": "BU",
+      "color": "#2980b9",
+      "results": [
+        { "id": "bu-1", "title": "B.Sc Semester 1 Results 2024", "date": "2024-12-15", "status": "Published" },
+        { "id": "bu-2", "title": "B.Sc Semester 2 Results 2024", "date": "2024-11-23", "status": "Published" },
+        { "id": "bu-3", "title": "B.Com Semester 1 Results 2024", "date": "2024-12-01", "status": "Published" },
+        { "id": "bu-4", "title": "B.Com Semester 2 Results 2024", "date": "2024-11-07", "status": "Published" },
+        { "id": "bu-5", "title": "BBA Semester 1 Results 2024", "date": "2024-12-04", "status": "Published" },
+        { "id": "bu-6", "title": "M.Sc Semester 1 Results 2024", "date": "2024-11-30", "status": "Published" },
+        { "id": "bu-7", "title": "MBA Semester 2 Results 2024", "date": "2024-11-04", "status": "Published" }
+      ]
+    }
+  ]
+}
