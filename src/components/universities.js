@@ -107,6 +107,13 @@ function openResultModal(uni, result) {
   const backdrop = document.getElementById('resultModal');
   if (!backdrop) return;
 
+  // Determine if a valid external URL exists for this result
+  const hasUrl = result.url && result.url.trim() !== '';
+
+  const viewResultsBtn = hasUrl
+    ? `<button class="btn btn-primary" id="resultViewBtn">View Results ↗</button>`
+    : `<button class="btn btn-primary" disabled title="No link available" style="opacity:0.5;cursor:not-allowed;">View Results</button>`;
+
   backdrop.innerHTML = `
     <div class="modal result-modal">
       <button class="modal-close" id="resultModalClose">✕</button>
@@ -126,18 +133,24 @@ function openResultModal(uni, result) {
         <p><strong>Result Title:</strong> ${result.title}</p>
         <p><strong>Published Date:</strong> ${formatDate(result.date)}</p>
         <p><strong>Status:</strong> <span style="color:#16a34a;font-weight:600;">${result.status}</span></p>
+        ${hasUrl ? `<p><strong>Link:</strong> <a href="${result.url}" target="_blank" rel="noopener noreferrer" style="color:var(--primary);word-break:break-all;">${result.url}</a></p>` : ''}
       </div>
 
       <div class="result-modal-actions">
-        <button class="btn btn-primary" onclick="showToastFromWindow('📋 Results copied to clipboard!', 'success')">
-          View Results
-        </button>
+        ${viewResultsBtn}
         <button class="btn btn-outline" id="resultModalCloseBtn">Close</button>
       </div>
     </div>
   `;
 
   backdrop.classList.add('active');
+
+  // Open external URL in new tab
+  if (hasUrl) {
+    document.getElementById('resultViewBtn')?.addEventListener('click', () => {
+      window.open(result.url, '_blank', 'noopener,noreferrer');
+    });
+  }
 
   backdrop.addEventListener('click', e => {
     if (e.target === backdrop) backdrop.classList.remove('active');
